@@ -41,3 +41,6 @@ rs3777811 0.830651265778997
 rs34925767 0.761642570067226
 </pre>
 
+Plotting in LocusZoom will give (example of cis-eQTLs for TCF21 gene on chromosome 6):
+
+![ScreenShot](
