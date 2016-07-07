@@ -15,6 +15,10 @@ rm $1.eQTL.input.noquote
 rm $1.eQTL.input.noquote.noheader
 rm $1.eQTL.input.noquote.noheader.cut
 
+#Download dbSNP 142 cut version
+#wget 
+#gunzip snp142.cut_tab.gz
+
 #Grep chr from dbSNP142 
 grep "chr$2" snp142.cut_tab > snp142.cut_tab.chr$2
 grep -v "chr$2_" snp142.cut_tab.chr$2 >snp142.cut_tab.chr$2_clean
