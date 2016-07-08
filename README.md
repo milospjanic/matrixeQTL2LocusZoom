@@ -18,6 +18,7 @@ head AOR_TCF21_eqtls.txt
 
 #Executing script
 Download and unzip dbSNP 142 summary from https://stanfordmedicine.box.com/s/2scotvvcppu487yy3okx45k4awow0eo0
+
 Download matrixeQTL2LocusZoom.sh
 Download snp142.cut_tab
 <pre>
