@@ -17,13 +17,12 @@ head AOR_TCF21_eqtls.txt
 </pre>
 
 #Executing script
-Download dbSNP 142 summary from https://stanfordmedicine.box.com/s/2scotvvcppu487yy3okx45k4awow0eo0
+Download dbSNP142 summary file, snp142.cut_tab.gz, from https://stanfordmedicine.box.com/s/2scotvvcppu487yy3okx45k4awow0eo0
 
 Unzip dbSNP142 file, snp142.cut_tab.gz
 
 Download matrixeQTL2LocusZoom.sh
 
-Download snp142.cut_tab
 <pre>
 chmod 755 matrixeQTL2LocusZoom.sh
 ./matrixeQTL2LocusZoom.sh ENSG00000118526 6 AOR_TCF21_eqtls.txt
