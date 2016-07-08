@@ -15,7 +15,7 @@ rm $1.eQTL.input.noquote
 rm $1.eQTL.input.noquote.noheader
 rm $1.eQTL.input.noquote.noheader.cut
 
-#Download and unzip dbSNP 142 cut version snp142.cut_tab from the link: https://stanfordmedicine.box.com/s/2scotvvcppu487yy3okx45k4awow0eo0
+#Download and unzip dbSNP142 cut version snp142.cut_tab.gz from the link: https://stanfordmedicine.box.com/s/2scotvvcppu487yy3okx45k4awow0eo0
 
 #Grep chr from dbSNP142 
 grep "chr$2" snp142.cut_tab > snp142.cut_tab.chr$2
